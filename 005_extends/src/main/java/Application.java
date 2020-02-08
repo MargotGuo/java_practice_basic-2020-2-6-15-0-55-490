@@ -1,3 +1,5 @@
+import model.Eagle;
+
 public class Application {
 
     /**
@@ -7,6 +9,10 @@ public class Application {
      * 心满意足之后就睡觉了。
      */
     public static void main(String[] args) {
-
+        Eagle eagle = new Eagle(4, 5, 30, "rabbit");
+        eagle.fly();
+        eagle.prey();
+        eagle.eat();
+        eagle.sleep();
     }
 }
