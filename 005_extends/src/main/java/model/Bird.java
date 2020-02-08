@@ -9,7 +9,6 @@ public class Bird extends Animal {
   }
 
   public Bird() {
-    super();
     this.flightSpeed = 50;
   }
 

@@ -9,7 +9,6 @@ public class Eagle extends Bird {
   }
 
   public Eagle() {
-    super();
     this.preyAnimal = "rabbit";
   }
 
