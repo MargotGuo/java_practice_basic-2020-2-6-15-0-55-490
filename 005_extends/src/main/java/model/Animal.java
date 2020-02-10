@@ -10,8 +10,6 @@ public class Animal {
   }
 
   public Animal() {
-    this.age = 0;
-    this.weight = 5;
   }
 
   public void eat() {
